@@ -44,7 +44,7 @@ export function Video(props: VideoProps) {
 
   if (!data) {
     return (
-      <div>
+      <div className="flex-1">
         <p>Carregando ...</p>
       </div>
     )
